@@ -1,7 +1,0 @@
-modelo\DAOusuario.class
-modelo\EsNumero.class
-controlador\CerrarSesion.class
-controlador\ControladorLogin.class
-modelo\Conexion.class
-modelo\EsDouble.class
-modelo\Usuario.class
