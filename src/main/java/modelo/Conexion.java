@@ -17,9 +17,9 @@ public class Conexion {
     
     //conexion en host
     public static final String driver="com.mysql.jdbc.Driver";
-    public static final String user="userWAB";
-    public static final String pass="L8fXOY8rhfGvOQVj";
-    public static final String url = "jdbc:mysql://mysql:3306//sampledb";
+    public static final String user="userdtQ";
+    public static final String pass="wvtDGDba";
+    public static final String url = "jdbc:mysql://jws-app-mysql:3306//root";
   
     
     
