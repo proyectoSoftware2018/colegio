@@ -35,7 +35,7 @@ public class DAOusuario {
           // este es cuando es profe
             case 2:
                 try {
-//                    ps = conn.getConnection().prepareCall("call LoginProfesor(?)");
+                    ps = conn.getConnection().prepareCall("call LoginProfesor(?)");
                     ps.setString(1, usu.getCodigo());
                     ResultSet rs = ps.executeQuery();
                     while (rs.next()) //Esta es la forma correcta de recorrer los valores obtenidos de una consulta
@@ -58,7 +58,7 @@ public class DAOusuario {
                 //aqui cambiamos el procedimiento almacenado se llama loginPadre
                 //esto es para enviarle el parametro ahi le envio
                  try {
-//                    ps = conn.getConnection().prepareCall("call LoginPadre(?)");
+                    ps = conn.getConnection().prepareCall("call LoginPadre(?)");
                     ps.setString(1, usu.getCodigo());
                     //aqui lo ejecuto y lo recupero el select en RS
                     ResultSet rs = ps.executeQuery();
