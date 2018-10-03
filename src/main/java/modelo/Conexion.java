@@ -8,21 +8,11 @@ import java.sql.SQLException;
 public class Conexion {
     private static Connection conn;
     
-     /*
+   
     public static final String driver="com.mysql.jdbc.Driver";
     public static final String user="root";
     public static final String pass="root";
-    public static final String url = "jdbc:mysql://localhost:3306/colegio";
-      */
-    
-    //conexion en host
-    public static final String driver="com.mysql.jdbc.Driver";
-    public static final String user="userdtQ";
-    public static final String pass="wvtDGDba";
-    public static final String url = "jdbc:mysql://jws-app-mysql:3306//root";
-  
-    
-    
+    public static final String url = "jdbc:mysql://mysql:3306/colegio";
     
      /*
     //conexion en host
