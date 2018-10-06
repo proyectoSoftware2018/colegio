@@ -6,7 +6,7 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link" href="#intro">Introducción</a>
       </li>
       <li class="nav-item">
@@ -14,6 +14,9 @@
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#ubi">Ubicación</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="creadores.jsp">Creadores</a>
       </li>
     </ul>
         <a href="login.jsp"><button class="btn btn-outline-primary my-2 my-sm-0">Iniciar Sesion</button></a>

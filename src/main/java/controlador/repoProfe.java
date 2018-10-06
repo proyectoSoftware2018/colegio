@@ -33,6 +33,7 @@ public class repoProfe extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
        response.setContentType("text/html;charset=UTF-8");
+       
         ListaProfesores li = new ListaProfesores();
         LinkedList<Profesor> ve = li.select();
         request.getSession().setAttribute("lista", ve);
