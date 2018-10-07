@@ -40,7 +40,7 @@ request.getRequestDispatcher("index.jsp").forward(request, response);
 
             <section class="bg-info">
 
-                <div class="container col-12 col-lg-10 " >
+                <div class="container col-12 col-lg-10 col-md-10 col-xl-10 col-xs-10 col-sm-10" >
                     <form action="controladoralumno.do" method="post" class="container" id="needs-validation" novalidate>
                         <div class="card">
                             <h5 class="card-header">Registro de Padre, Madre o Apoderado </h5>
@@ -51,7 +51,7 @@ request.getRequestDispatcher("index.jsp").forward(request, response);
 
 
                                     <div class="row">
-                                        <div class="form-group col-md-4 col-lg-6">
+                                        <div class="form-group col-md-6 col-lg-6">
                                             <label for="inputState">Estado:</label>
                                             <select id="inputState" class="form-control" name="combo1">
                                                 <option selected value="0">ESTADO CIVIL:</option>
@@ -61,7 +61,7 @@ request.getRequestDispatcher("index.jsp").forward(request, response);
                                                 <option value="4">Divorciado</option>
                                             </select>
                                         </div>
-                                        <div class="form-group col-md-4 col-lg-6">
+                                        <div class="form-group col-md-6 col-lg-6">
                                             <label for="inputState">Sexo:</label>
                                             <select id="inputState" class="form-control" name="combo2">
                                                 <option selected value="0">Elija:</option>
@@ -190,24 +190,27 @@ request.getRequestDispatcher("index.jsp").forward(request, response);
                                     </div>
 
 
-                                    <div class="container col-12 col-lg-6">
+                                    <div class="container col-12 col-lg-10 col-md-10 col-xl-10 col-xs-10 col-sm-10">
                                         <div class="card">
-                                            <h5 class="card-header">Registro del Cuenta</h5>
+                                            <h5 class="card-header text-center">Registro del Cuenta</h5>
                                             <div class="card-body">
-                                                <div class="container col-12 col-lg-12">
-                                                    <div class="col-md-8 mb-4 col-lg-10 justify-content-center">
+                                                <div class="row">
+                                                    <div class="mb-12 col-lg-12 col-md-12 col-xl-12 col-xs-12 col-sm-12 justify-content-center">
                                                         <label for="validationCustom01">Usuario</label>
                                                         <input type="text" name="usu" class="form-control" id="usuario" placeholder="Ej: Mario" >
                                                     </div>
-                                                    <div class="col-md-8 mb-4 col-lg-10 justify-content-center">
+                                                    <div class="mb-12 col-lg-12 col-md-12 col-xl-12 col-xs-12 col-sm-12 justify-content-center">
                                                         <label for="validationCustom02">Contraseña</label>
                                                         <input type="password" name="contra" class="form-control" id="contra1" placeholder="Ej: *****">
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div style="text-align: center;" class="py-3">
-                                            <button type="submit" id="boton" class="btn btn-primary">REGISTRAR INFORMACIÓN</button>  
+                                        <div style="text-align: center;" class="py-3 row">
+                                             <div class="mb-12 col-lg-12 col-md-12 col-xl-12 col-xs-12 col-sm-12 justify-content-center">
+                                            <button type="submit" id="boton" class="btn btn-primary">Registrar</button>  
+                                            <a href="administrador.jsp" class="btn btn-danger">Cancelar</a>
+                                             </div>
                                         </div>
                                     </div>
                                 </div>
