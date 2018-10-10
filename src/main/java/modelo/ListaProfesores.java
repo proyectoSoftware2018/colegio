@@ -34,7 +34,7 @@ public class ListaProfesores {
                 String correo = rs.getString(9);
                 String contra = rs.getString(10);
 
-                Profesor a = new Profesor(codigo, apellido, nombre, direccion, ciudad, edad, tcasa, tmovil, correo, contra);
+                Profesor a = new Profesor(codigo,nombre ,apellido , direccion, ciudad, edad, tcasa, tmovil, correo, contra);
                 lista.add(a);
             }
             return lista;
